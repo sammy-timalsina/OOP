@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOPDesign.SOLID_PRINCIPLES.InterfaceSegration
 {
-    interface IShape
+    interface I2DShape
     {
         double calculateArea();
-        double calculateVolume();
     }
 }

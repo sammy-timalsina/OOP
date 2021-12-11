@@ -6,17 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOPDesign.SOLID_PRINCIPLES.InterfaceSegration
 {
-    public class Square : IShape
+    public class Square :I2DShape
     {
         //There is a problem on the OOP desing here
         //it violates the SOLID principle
         //Square does not require calculate volume method
         public double calculateArea()
-        {
-            throw new NotImplementedException();
-        }
-
-        public double calculateVolume()
         {
             throw new NotImplementedException();
         }
