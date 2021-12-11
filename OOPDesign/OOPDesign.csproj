@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <Folder Include="Abstraction\" />
+    <Folder Include="SOLID_PRINCIPLES\Liskov\" />
+    <Folder Include="SOLID_PRINCIPLES\InterfaceSegration\" />
+    <Folder Include="SOLID_PRINCIPLES\DependencyInjection\" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,8 @@
 ﻿using OOPDesign.Encapsulation;
 using OOPDesign.Inheritance;
 using OOPDesign.Polymorphism;
+using OOPDesign.SOLID_PRINCIPLES.OpenClosedPrinciple;
+using OOPDesign.SOLID_PRINCIPLES.SingleResponsibility;
 using System;
 
 namespace OOPDesign
@@ -9,6 +11,8 @@ namespace OOPDesign
     {
         static void Main(string[] args)
         {
+            BookService bs = new BookService();
+            bs.FindBook("Mahabharat");
             //Encapsulation example
             //User u = new User();
             //u.Age = 88;
